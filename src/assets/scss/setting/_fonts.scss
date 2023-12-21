@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&display=swap');
+@font-face {
+    font-family: "Kudryashev Display Sans";
+    src: url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.eot");
+    src: url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/384a6031928e262848e4e7ef80037466.svg#Kudryashev Display Sans")format("svg");
+}
 
 @font-face {
     font-family: 'NexonLv1Gothic';
@@ -125,99 +133,107 @@
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Thin.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 200;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraLight.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 300;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Light.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 400;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Regular.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 500;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Medium.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 600;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-SemiBold.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 700;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Bold.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 800;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-ExtraBold.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'Montserrat';
     font-weight: 900;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Montserrat/Montserrat-Black.ttf') format("truetype");
     font-display: swap;
-} 
+}
 
 @font-face {
     font-family: 'NotoSansKR';
@@ -225,63 +241,68 @@
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Thin.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'NotoSansKR';
     font-weight: 300;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Light.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'NotoSansKR';
     font-weight: 400;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Regular.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'NotoSansKR';
     font-weight: 500;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Medium.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'NotoSansKR';
     font-weight: 700;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Bold.ttf') format("truetype");
     font-display: swap;
-} 
+}
+
 @font-face {
     font-family: 'NotoSansKR';
     font-weight: 900;
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.eot');
     src: url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.eot?#iefix') format('embedded-opentype'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.ttf') format("truetype");
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/Noto/NotoSansKR-Black.ttf') format("truetype");
     font-display: swap;
-} 
+}

@@ -10,6 +10,14 @@
                 font-family: var(--mainEn-font);
                 font-weight: 400;
                 margin-left: 1vw;
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+
+            &.active {
+                a {
+                    text-decoration: none;
+                }
             }
         }
     }
