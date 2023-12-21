@@ -1,36 +1,86 @@
-#work_wrap {
+.work_wrap {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100vh;
-    background: #000;
+    // background: #000;
     overflow: hidden;
     display: flex;
     align-items: flex-end;
-    z-index: -3;
-    position: relative;
+    z-index: 2;
 
-    .bg_img {
+    &::before {
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        clip-path: circle(140.9% at 0 0);
+        // clip-path: circle(0 0 at 0 0);
+        animation: slideInDown 1s ease-out;
+        position: absolute;
+
+        @keyframes slideInDown {
+            from {
+                clip-path: circle(8% at 0 0);
+                // clip-path: circle(140.9% at 0 0);
+            }
+        }
+    }
+
+    .bg_img_wrap {
         position: absolute;
         top: 50%;
         left: 50%;
-        background-image: url(../../image/youtube.jpg);
         width: 38vw;
         height: 50vw;
-        background-position: center;
-        background-size: cover;
         transform: translate(-50%, -50%) rotate(45deg);
-        z-index: -2;
+        // background-color: #fff;
 
-        &::after {
-            content: '';
-            top: 0;
-            left: 0;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: -1;
+        @keyframes rotateInDownLeft {
+            from {
+                opacity: 0;
+                transform-origin: left bottom;
+                transform: rotate(-90deg);
+            }
+
+            to {
+                opacity: 1;
+                transform-origin: left bottom;
+                transform: rotate(0deg);
+            }
+        }
+
+        .bg_img {
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            width: 38vw;
+            height: 50vw;
+            background-image: url(../../image/youtube.jpg);
+            background-position: center;
+            background-size: cover;
+            // transform: translate(-50%, -50%) rotate(45deg);
+            z-index: 0;
+            animation: rotateInDownLeft 1s ease-out;
+
+
+            &::after {
+                content: '';
+                top: 0;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 1;
+            }
         }
     }
+
 
     h2 {
         position: absolute;
@@ -77,8 +127,9 @@
                 margin: 0 auto;
                 background-image: url(../../image/arrow2.svg);
                 background-position: center;
-                background-size: cover;
+                background-size: contain;
                 cursor: pointer;
+                background-repeat: no-repeat;
             }
 
             &.left {

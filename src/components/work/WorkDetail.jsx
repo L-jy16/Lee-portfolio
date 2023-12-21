@@ -1,10 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 const WorkDetail = () => {
+    const navigate = useNavigate();
+
+    const backHandle = () => {
+        navigate("/")
+    }
     return (
-        <div id='work_wrap'>
-            <div className='bg_img'></div>
+        <div className='work_wrap'>
+            <div className="bg_img_wrap">
+                <div className='bg_img'></div>
+            </div>
             <h2>youtube</h2>
             <div className='bottom_info'>
                 <div className="work_info left">
@@ -21,8 +29,7 @@ const WorkDetail = () => {
                     <div className='work_desc'>
                         <span>2023.11</span>
                     </div>
-                    <div className="work_button">
-                    </div>
+                    <div className="work_button" onClick={() => backHandle()}></div>
                 </div>
                 <div className="work_info right">
                     <h3 className='work_title'>overview</h3>
