@@ -1,0 +1,16 @@
+#footer {
+    padding: 1vw 2vw;
+
+    ul {
+        display: flex;
+
+        li {
+            a {
+                font-size: 1.1vw;
+                font-family: var(--mainEn-font);
+                font-weight: 400;
+                margin-left: 1vw;
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+#main_wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    .section {
+        width: 25%;
+        padding: 2vw;
+
+        .title {
+            display: inline-block;
+            height: 3vw;
+            overflow: hidden;
+            position: relative;
+            transition: margin-top 0.3s;
+
+
+            h2 {
+                font-family: var(--fontBodon);
+                font-size: 2vw;
+                text-transform: uppercase;
+                margin: 0 0 2vw 0;
+                margin-top: 0;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        .img_wrap {
+            transition: all 0.4s ease-in-out;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 24vw;
+
+            .site_img {
+                margin: 0 auto;
+                width: 100%;
+                height: 100%;
+                background-image: url(../../image/youtube.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-bottom: 1vw;
+                transition: all 0.4s ease-in-out;
+                cursor: pointer;
+
+                &::after {
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                    z-index: 1;
+                }
+            }
+
+        }
+
+        .desc {
+            span {
+                word-break: keep-all;
+                font-size: 0.9vw;
+                line-height: 1.5;
+            }
+        }
+
+        &:nth-child(even) {
+            margin-top: 4vw;
+        }
+
+        &:nth-child(odd) {
+            margin-bottom: 4vw;
+        }
+
+        &:hover {
+            .title {
+                h2 {
+                    margin-top: -2.5vw;
+                }
+            }
+
+            .img_wrap {
+                transform: scale(0.92);
+
+                .site_img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+    }
+}
