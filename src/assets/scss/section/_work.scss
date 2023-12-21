@@ -65,7 +65,7 @@
             background-size: cover;
             // transform: translate(-50%, -50%) rotate(45deg);
             z-index: 0;
-            animation: rotateInDownLeft 1s ease-out;
+            animation: rotateInDownLeft, fai 1s ease-out;
 
 
             &::after {
